@@ -13,7 +13,7 @@ knit        : slidify::knit2slides
 
 ## Description
 
-The Shiny App Developed as a Part of Coursera Develop Data Product Assignment Display the Telephone Count across different regions in the world, year 1951-1961:
+The Shiny App Developed as a Part of Coursera 'Developing Data Product' Assignment plots the No. of Telephones across different regions in the world.
 
 - Africa
 - Asia
@@ -28,12 +28,12 @@ from the year 1951 to 1961
 ---
 ## Details
 
-The Dataset used is Preloaded Dataset "World Telephones" available in R
+The Dataset used is the Preloaded R Dataset "World Telephones".
 
 ---
 ## Example
 
-Here is the display of the data
+Below is the data used for the application development.
 
 ```{r, echo=FALSE}
 
@@ -46,12 +46,12 @@ WorldPhones
 
 - The App Consists of a Selection list with the list of 7 Regions
 
-- Barplot is used to plot display the telephone count any selected region
+- Barplot is used to plot the telephone count for any selected region
 
 ---
 ## Conclusion
 
-- Integrated Development and Publishing Environment has made the application development easy.
+- Integrated Development and Publishing Tools have made the application development faster.
 
-- Application Development and Presentation is now Seamless, Quick and Easy
+- Development and Presentation is now Seamless, Quick and Easy.
 
