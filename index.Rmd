@@ -30,6 +30,8 @@ from the year 1951 to 1961
 
 The Dataset used is the Preloaded R Dataset "World Telephones".
 
+The Dataset Contains Region-wise Telephone Count from the year 1951 to 1961
+
 ---
 ## Example
 
