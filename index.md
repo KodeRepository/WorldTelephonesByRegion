@@ -60,7 +60,8 @@ Below is the data used for the application development.
 
 - The App Consists of a Selection list with the list of 7 Regions
 
-![Selection List](images/selection.png)
+![Selection List](images/imgsel.png)
+
 
 ---
 ## Display - Bar Plot
