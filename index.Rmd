@@ -1,7 +1,7 @@
 ---
-title       : World Telephones By Region
-subtitle    : (1951-1961)
-author      : RKoder
+title       : World Telephones By Region (1951-1961)
+subtitle    : Presentation on Shiny App - Coursera Develop Data Product Assignment
+author      : R-Koder
 job         : R student
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -25,12 +25,18 @@ The Shiny App Developed as a Part of Coursera 'Developing Data Product' Assignme
 
 from the year 1951 to 1961
 
+The application is accesible in the Url
+[World Telephone App](https://sampleshinyapps.shinyapps.io/ShinyDataProduct/)
+
 ---
 ## Details
 
 The Dataset used is the Preloaded R Dataset "World Telephones".
 
-The Dataset Contains Regionwise Telephone Count from the year 1951 to 1961
+The Dataset Contains Regionwise Telephone Count from the year 1951 to 1961.
+
+
+
 
 ---
 ## Example
@@ -48,7 +54,11 @@ WorldPhones
 
 - The App Consists of a Selection list with the list of 7 Regions
 
+![Selection List](images/selection.png)
+
 - Barplot is used to plot the telephone count for any selected region
+
+![Bar Plot](images/BarPlot.png)
 
 ---
 ## Conclusion
