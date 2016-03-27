@@ -56,15 +56,12 @@ Below is the data used for the application development.
 ```
 
 ---
-## Display - Selection List
+## Display
 
 - The App Consists of a Selection list with the list of 7 Regions
 
 ![Selection List](images/imgsel.png)
 
-
----
-## Display - Bar Plot
 
 - Barplot is used to plot the telephone count for any selected region
 
