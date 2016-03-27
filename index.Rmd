@@ -1,7 +1,7 @@
 ---
-title       : Energy Consumption
-subtitle    : In my renovated house
-author      : Fabrice Niessen
+title       : World Telephones By Region
+subtitle    : (1951-1961)
+author      : RKoder
 job         : R student
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -13,49 +13,45 @@ knit        : slidify::knit2slides
 
 ## Description
 
-The Shiny App I wrote displays energy consumption information:
+The Shiny App Developed as a Part of Coursera Develop Data Product Assignment Display the Telephone Count across different regions in the world, year 1951-1961:
 
-- gas
-- electricity
-- water
+- Africa
+- Asia
+- Europe
+- M.America
+- N.Ameirca
+- Oceania
+- S.America
 
-for the years 2012 to 2014.
+from the year 1951 to 1961
 
 ---
 ## Details
 
-Every Sunday, I write down in an Excel sheet the figures displayed by the
-different meters.
-
-These data are diffed, week by week, so that I get the week's consumption.
-
-Further more, a formula is applied to compute an estimate price (expressed in
-EUR) for the week's consumption.
+The Dataset used is Preloaded Dataset "World Telephones" available in R
 
 ---
 ## Example
 
-Here are the first 10 lines of the Excel file (for the columns which interest
-me, the ones I show in the barplot):
+Here is the display of the data
 
-```{r head-10-lines, echo=FALSE}
+```{r, echo=FALSE}
+
+WorldPhones
 
 ```
 
 ---
-## Lessons learned
+## Data Display 
 
-- Necessry to use reactive function as soon as I have 2 inputs or more.
+- The App Consists of a Selection list with the list of 7 Regions
 
-- In the renderPlot function, the name of the dataframe must be followed by
-  parentheses.
+- Barplot is used to plot display the telephone count any selected region
 
 ---
 ## Conclusion
 
-- Writing the application + these slides took me around 3 hours.
-  That's pretty excellent for making such a huge work available (displayable,
-  testable) by third parties.  A wonder, in fact.
+- Integrated Development and Publishing Environment has made the application development easy.
 
-- With these R technologies, I really feel I stand on the shoulders of giants.
+- Application Development and Presentation is now Seamless, Quick and Easy
 
